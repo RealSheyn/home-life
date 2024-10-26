@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+  <head> </head>
+  <body>
+    <form action="/core.php" method="post
+    
+    ">
+      <input type="text" name="firstName" placeholder="نام" required />
+      <input type="text" name="lastName" placeholder="نام خانوادگی" required />
+      <input
+        type="email"
+        name="email"
+        placeholder="email@domain.com"
+        required
+      />
+      <select name="city">
+        <option value="rasht">رشت</option>
+        <option value="tehran">تهران</option>
+        <option value="ilam">ایلام</option>
+        <option value="mahabad">مهاباد</option>
+      </select>
+      <button type="submit">ورود به سامانه</button>
+    <select name="fav" multiple>
+        <option value="">علوم کامپیوتر</option>
+        <option value="">علوم انسانی</option>
+        <option value="">روانشناسی</option>
+        <option value="">فلسفه</option>
+        <option value="">فیزیک</option>
+     </select>
+     <fieldset>
+       <legend>اطلاعات فردی</legend>
+        <input type="text" placeholder="ورزش مورد علاقه">
+        <input type="text" placeholder="موسیقی مورد علاقه">
+        <input type="text" placeholder="غذا مورد علاقه">
+     </fieldset>
+    
+    <fieldset>
+        <legend>جنسیت</legend>
+        <label for="femaleInput">زن</label>
+        <input id="femaleInput" type="radio" name="sex" value="female">
+        <label for="maleInput">مرد</label>
+        <input id="maleInput" type="radio" name="sex" value="male">
+    </fieldset>
+    
+      <div>
+        <label for="nationalCardImageInput">انتخاب عکس</label>
+        <input id="nationalCardImageInput" type="file" name="nationalCardImageInput">
+    </div>
+
+
+    <div>
+        <div>
+            <label for="descriptionInput">توضیحات</label>
+        </div>
+         <textarea name="description" id="descriptionInput" rows="12" cols="32"></textarea>
+    </div>
+
+      <button type="reset">شروع دوباره
+
+
+        
+      </button>
+    </form>
+    
+
+</body>
+</html>
